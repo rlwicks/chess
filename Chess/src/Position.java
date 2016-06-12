@@ -14,4 +14,8 @@ public class Position {
 		col = s.charAt(0) - 97; //map a-e to 0-7
 		row = s.charAt(1) - 1; //map 1-8 to 0-7
 	}
+	
+	public String toString() {
+		return col + " " + row;
+	}
 }
